@@ -67,6 +67,12 @@
 </script>
 
 <style>
+  a{
+    text-decoration : none
+  }
+  router-link{
+    text-decoration : none
+  }
   #app{
     height:100%;
   }
