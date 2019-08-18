@@ -4,6 +4,7 @@
       <el-header class="header">
         <div><img/></div>
         <div class="left">
+          <el-button class="el-icon-message" type="info">反馈</el-button>
           <a href="#"><el-button class="el-icon-s-custom" type="info">登录</el-button></a>
           <el-button type="info">申请服务</el-button>
         </div>
@@ -112,7 +113,7 @@
   a{
     text-decoration : none
   }
-  router-link{
+  .router-link{
     text-decoration : none
   }
   #app{
@@ -164,7 +165,7 @@
   }
 
 .el-footer {
-  background-color: rgba(36, 216, 49, 0.9);
+  background-color: rgba(21, 150, 36, 0.9);
   color: #333;
   text-align: center;
   line-height: 60px;
@@ -178,7 +179,7 @@
 .el-header{
   width:100%;
   position:fixed;
-  background-color: rgba(36, 216, 49, 0.9);
+  background-color: rgba(21, 150, 36, 0.9);
 }
 
 .el-main {
